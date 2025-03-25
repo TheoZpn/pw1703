@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/index.css" rel="stylesheet" />
+    <!-- <link href="css/variable.css" rel="stylesheet" /> --> 
     <style>
 
 
     </style>
 </head>
 
-<body>
+<body data-theme="light">
     <header>
         <h1>SETIF 2025 - A Revolução da Tecnlogia</h1>
     </header>
@@ -25,8 +26,9 @@
         <p><span class ="negrito">Data: </span>10 de outubro 2025</p>
         <p><span class="negrito">Local: </span>IFPR Campus Paranavaí</p>
 
-        <span class ="button">Inscreva-se</span>
-        <span class="button">Saiba mais</span>
+        <button class ="button">Inscreva-se</button>
+        <button class="button">Saiba mais</button>
+        <button id = "btAlterarTema" onclick="alterarTema()" class="button">Alterar Tema</button>
 
         <div class="cards">
             <!-- computador.png -->
@@ -49,6 +51,14 @@
             </div>
 
         </div>
+
+        <div id ="inscritos">
+            
+        </div>
+
     </main>
 
+    <script src="js/index.js"></script>
+
+</body>
 </html>

@@ -1,0 +1,26 @@
+:root {
+    /*BACKGROUND*/
+    --bg-color-body: #111;
+    --bg-color-container: #222;
+
+    /*TEXT COLOR*/
+    --letter-color: white;
+
+    /*BUTTON*/
+    --bg-button-color: white;
+    --letter-button-color: black;
+    --button-hover-color: white;
+}
+
+[data-theme="light"] {
+    /*BACKGROUND*/
+    --bg-color-body: #eceaea;
+    --bg-color-container: #cec9c9;
+    --letter-color: black;
+
+    /*BUTTON*/
+    --bg-button-color: black;
+    --letter-button-color: white;    
+    --button-hover-color: black;
+}
+
