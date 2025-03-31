@@ -6,59 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/index.css" rel="stylesheet" />
-    <!-- <link href="css/variable.css" rel="stylesheet" /> --> 
-    <style>
-
-
-    </style>
 </head>
 
 <body data-theme="light">
     <header>
-        <h1>SETIF 2025 - A Revolução da Tecnlogia</h1>
+        <div class="header">
+            <div class="esquerda">
+                <img src="images/mordecai.jpg" alt="Imagem de perfil">
+                <h1>Théo Penteado</h1>
+            </div>
+            <div class="direita">
+                <span>Home</span>
+                <span>Sobre</span>
+                <span>Projetos</span>
+                <span>Contato</span>
+            </div>
+        </div>
     </header>
 
     <main>
-        <img src="images/espaço.jpg" alt="ibanner do site">
+        <img src="images/espaço.jpg" alt="banner do site">
 
-        <h2>O evento tech mais esperado do ano</h2>
-        <p>Pariticpe da SETIF e veja tendências que vão moldar o futuro da tecnlogia</p>
-        <p><span class ="negrito">Data: </span>10 de outubro 2025</p>
-        <p><span class="negrito">Local: </span>IFPR Campus Paranavaí</p>
+        <h2>OLÁ, EU SOU THÉO PENTEADO ZEPPONI</h2>
+        <p>Um estudante do Instituto Federal do Paraná (IFPR) que esta cursando Engenharia de Software</p>
+        <p>Este é o meu Portfolio, desenvolvido sob a aula de Programação Web</p>
+        <!-- <p><span class="negrito">Local: </span>IFPR Campus Paranavaí</p>*/ --> <!-- CLASSE NEGRITO TA AQUI -->
 
-        <button class ="button">Inscreva-se</button>
-        <button class="button">Saiba mais</button>
-        <button id = "btAlterarTema" onclick="alterarTema()" class="button">Alterar Tema</button>
+
+        <button id="btAlterarTema" onclick="alterarTema()" class="button">Alterar Tema</button>
 
         <div class="cards">
-            <!-- computador.png -->
-             <div class="card">
-                <img src="images/computador.png" alt="palestras">
-                <h3>Palestras Inspiradoras</h3>
-                <p>Maiores especialistas do setor discutindo</p>
-            </div>
-
             <div class="card">
-                <img src="images/computador.png" alt="networking">
-                <h3>Networking de Alto Nivel</h3>
-                <p>Conecte-se com profissionais da área</p>
+                <img src="images/spaceinvader.jpg" alt="palestras">
+                <h3>Desenvolvimento de um Jogo</h3>
+                <p>Um jogo estilo Space Invaders desenvolvido em meu curso atual</p>
             </div>
-
             <div class="card">
-                <img src="images/computador.png" alt="workshop">
-                <h3>Workshop Prático</h3>
-                <p>Aprenda na prática com profissionais da área</p>
+                <img src="images/desginer.avif" alt="networking">
+                <h3>Designer Gráfico</h3>
+                <p>Experiencias passadas trabalhando como Designer Gráfico em uma empresa</p>
             </div>
-
+            <div class="card">
+                <img src="images/robotica2.avif" alt="workshop">
+                <h3>Robótica</h3>
+                <p>Contato com os legos mindstorms e a programação em blocos além de participações em competições</p>
+            </div>
         </div>
-
-        <div id ="inscritos">
-            
-        </div>
-
     </main>
 
     <script src="js/index.js"></script>
-
 </body>
 </html>

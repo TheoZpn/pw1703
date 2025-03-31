@@ -1,10 +1,10 @@
 :root {
     /*BACKGROUND*/
     --bg-color-body: #111;
-    --bg-color-container: #222;
+    --bg-color-container: #242323;
 
     /*TEXT COLOR*/
-    --letter-color: white;
+    --letter-color: rgb(255, 255, 255);
 
     /*BUTTON*/
     --bg-button-color: white;
@@ -14,8 +14,8 @@
 
 [data-theme="light"] {
     /*BACKGROUND*/
-    --bg-color-body: #eceaea;
-    --bg-color-container: #cec9c9;
+    --bg-color-body: #edeaea;
+    --bg-color-container: #d6d4d4;
     --letter-color: black;
 
     /*BUTTON*/

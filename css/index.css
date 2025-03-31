@@ -1,6 +1,5 @@
 @import url(variable.css);
 
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--bg-color-body);
@@ -10,13 +9,45 @@ body{
     text-align: center;
 }
 
-header{
-    background-color: #1e90ff;
-    padding: 1px;
-    font-size: 1.2em;
+
+.header {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-main{
+.esquerda {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.esquerda img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%; 
+}
+
+
+.direita {
+    display: flex;
+    gap: 15px;
+}
+
+.direita span {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 16px;
+    color: black;
+}
+
+
+
+main {
     max-width: 990px;
     background-color: var(--bg-color-container);
     border-radius: 10px;
@@ -25,11 +56,11 @@ main{
     padding: 20px;
 }
 
-.negrito{
+.negrito {
     font-weight: bold;
 }
 
-.cards{
+.cards {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -38,20 +69,20 @@ main{
     flex-wrap: wrap;
 }
 
-.card{
-    background-color: rgb(65, 64, 64);
-    width: 250px; 
+.card {
+    background-color: rgb(33, 33, 33);
+    width: 250px;
     box-shadow: 0 0 10px #414040;
     border-radius: 10px;
     padding: 10px;
 }
 
-.card img{
+.card img {
     width: 100%;
     border-radius: 10px;
 }
 
-.button{
+.button {
     background-color: var(--bg-button-color);
     color: var(--letter-button-color);
     padding: 10px 20px;
@@ -63,19 +94,18 @@ main{
     font-weight: bold;
 }
 
-.button:hover{
+.button:hover {
     background-color: var(--button-hover-color);
     transform: scale(1.2);
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
 
-    .card{
+    .card {
         width: 95%;
     }
 
-    .button{
+    .button {
         background-color: black;
     }
-
 }
